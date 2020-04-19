@@ -4,3 +4,8 @@ header {
   padding: 2rem 1.28rem;
 }
 
+img.header_img {
+    margin-left: auto;
+    margin-right:auto;
+}
+
