@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>3b1b Lec1: The simpler quadratic formula - </title>
+<meta name="generator" content="Hugo 0.68.3" />
+<link href="https://g-breaker.github.io/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://g-breaker.github.io/math-notes/3b1b-lec1/">
+<link rel="stylesheet" href="https://g-breaker.github.io/css/theme.min.css">
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://g-breaker.github.io/css/chroma.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://g-breaker.github.io/js/bundle.js"></script><style>
+:root {}
+</style>
+<meta property="og:title" content="3b1b Lec1: The simpler quadratic formula" />
+<meta property="og:description" content="My notes from 3blue1brown #1 lecture.
+What is it? This lecture is about deriving the quadratic formula in a more intuitive matter. For those of you who don&#39;t remember, the quadratic formula is the formula
+\[ r, s = \frac{-b \pm \sqrt{b²-4ac}}{2a}.\]
+Here \(r\) and \(s\) is the roots of the function \(f(x) = ax² &#43; bx &#43; c\). The roots \(r\) and \(s\) represents where on the \(x\) axis \(f(x) = 0." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://g-breaker.github.io/math-notes/3b1b-lec1/" />
+<meta property="article:published_time" content="2020-04-19T15:47:10+02:00" />
+<meta property="article:modified_time" content="2020-04-19T15:47:10+02:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="3b1b Lec1: The simpler quadratic formula"/>
+<meta name="twitter:description" content="My notes from 3blue1brown #1 lecture.
+What is it? This lecture is about deriving the quadratic formula in a more intuitive matter. For those of you who don&#39;t remember, the quadratic formula is the formula
+\[ r, s = \frac{-b \pm \sqrt{b²-4ac}}{2a}.\]
+Here \(r\) and \(s\) is the roots of the function \(f(x) = ax² &#43; bx &#43; c\). The roots \(r\) and \(s\) represents where on the \(x\) axis \(f(x) = 0."/>
+<meta itemprop="name" content="3b1b Lec1: The simpler quadratic formula">
+<meta itemprop="description" content="My notes from 3blue1brown #1 lecture.
+What is it? This lecture is about deriving the quadratic formula in a more intuitive matter. For those of you who don&#39;t remember, the quadratic formula is the formula
+\[ r, s = \frac{-b \pm \sqrt{b²-4ac}}{2a}.\]
+Here \(r\) and \(s\) is the roots of the function \(f(x) = ax² &#43; bx &#43; c\). The roots \(r\) and \(s\) represents where on the \(x\) axis \(f(x) = 0.">
+<meta itemprop="datePublished" content="2020-04-19T15:47:10&#43;02:00" />
+<meta itemprop="dateModified" content="2020-04-19T15:47:10&#43;02:00" />
+<meta itemprop="wordCount" content="113">
+
+
+
+<meta itemprop="keywords" content="" /><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<div style="position: absolute; width: 100%;">
+<img class="header_img" style="top:0px; height: 6rem; margin: 0px auto 0px; display: block" src="/images/ipman_resize.png" alt="ipman" />
+</div>
+<meta name="generator" content="Hugo 0.68.3" />
+<link href="https://g-breaker.github.io/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://g-breaker.github.io/math-notes/3b1b-lec1/">
+<link rel="stylesheet" href="https://g-breaker.github.io/css/theme.min.css">
+
+<link rel="stylesheet" href="https://g-breaker.github.io/css/my-override.css">
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://g-breaker.github.io/css/chroma.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://g-breaker.github.io/js/bundle.js"></script><style>
+:root {}
+</style>
+<meta property="og:title" content="3b1b Lec1: The simpler quadratic formula" />
+<meta property="og:description" content="My notes from 3blue1brown #1 lecture.
+What is it? This lecture is about deriving the quadratic formula in a more intuitive matter. For those of you who don&#39;t remember, the quadratic formula is the formula
+\[ r, s = \frac{-b \pm \sqrt{b²-4ac}}{2a}.\]
+Here \(r\) and \(s\) is the roots of the function \(f(x) = ax² &#43; bx &#43; c\). The roots \(r\) and \(s\) represents where on the \(x\) axis \(f(x) = 0." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://g-breaker.github.io/math-notes/3b1b-lec1/" />
+<meta property="article:published_time" content="2020-04-19T15:47:10+02:00" />
+<meta property="article:modified_time" content="2020-04-19T15:47:10+02:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="3b1b Lec1: The simpler quadratic formula"/>
+<meta name="twitter:description" content="My notes from 3blue1brown #1 lecture.
+What is it? This lecture is about deriving the quadratic formula in a more intuitive matter. For those of you who don&#39;t remember, the quadratic formula is the formula
+\[ r, s = \frac{-b \pm \sqrt{b²-4ac}}{2a}.\]
+Here \(r\) and \(s\) is the roots of the function \(f(x) = ax² &#43; bx &#43; c\). The roots \(r\) and \(s\) represents where on the \(x\) axis \(f(x) = 0."/>
+<meta itemprop="name" content="3b1b Lec1: The simpler quadratic formula">
+<meta itemprop="description" content="My notes from 3blue1brown #1 lecture.
+What is it? This lecture is about deriving the quadratic formula in a more intuitive matter. For those of you who don&#39;t remember, the quadratic formula is the formula
+\[ r, s = \frac{-b \pm \sqrt{b²-4ac}}{2a}.\]
+Here \(r\) and \(s\) is the roots of the function \(f(x) = ax² &#43; bx &#43; c\). The roots \(r\) and \(s\) represents where on the \(x\) axis \(f(x) = 0.">
+<meta itemprop="datePublished" content="2020-04-19T15:47:10&#43;02:00" />
+<meta itemprop="dateModified" content="2020-04-19T15:47:10&#43;02:00" />
+<meta itemprop="wordCount" content="113">
+
+
+
+<meta itemprop="keywords" content="" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+</head>
+<body><div class="container"><header>
+<h1></h1>
+
+</header>
+
+<div class="content-container">
+<main><h1>3b1b Lec1: The simpler quadratic formula</h1>
+<p>My notes from 3blue1brown #1 lecture.</p>
+
+<h3 id="what-is-it">What is it?</h3>
+
+<p>This lecture is about deriving the quadratic formula in a more intuitive matter. For those of you who don't remember, the quadratic formula is the formula</p>
+
+<p><span  class="math">\[ r, s = \frac{-b \pm \sqrt{b²-4ac}}{2a}.\]</span></p>
+
+<p>Here <span  class="math">\(r\)</span> and <span  class="math">\(s\)</span> is the roots of the function <span  class="math">\(f(x) = ax² + bx + c\)</span>. The roots <span  class="math">\(r\)</span> and <span  class="math">\(s\)</span> represents where on the <span  class="math">\(x\)</span> axis <span  class="math">\(f(x) = 0.\)</span> This is illustrated in the picture below:</p>
+
+<ul>
+<li>Insert picture here</li>
+</ul>
+
+<p>But where does this come from? This formula seems so arbitrary. Lets first take a small side tour and talk about primes (I promise it will be relevant).</p>
+
+<h3 id="prime-factorization">Prime factorization</h3>
+<div class="edit-meta"><br></div><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main><div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class=""><a href="https://g-breaker.github.io/">Home</a></li>
+
+<li class=""><a href="https://g-breaker.github.io/electronics/">Electronics</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://g-breaker.github.io/electronics/my-first-project/">Solar panel charger</a></li>
+</ul>
+  
+</li>
+
+<li class=""><a href="https://g-breaker.github.io/dsp/">DSP</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://g-breaker.github.io/dsp/my-first-dsp-post/">Sampling</a></li>
+</ul>
+  
+</li>
+
+<li class="parent"><a href="https://g-breaker.github.io/math-notes/">Math Notes</a>
+  
+<ul class="sub-menu">
+<li class="active"><a href="https://g-breaker.github.io/math-notes/3b1b-lec1/">3b1b Lec1: The simpler quadratic formula</a></li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>
