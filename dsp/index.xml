@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome on </title>
-    <link>https://g-breaker.github.io/</link>
-    <description>Recent content in Welcome on </description>
+    <title>DSP on </title>
+    <link>https://g-breaker.github.io/dsp/</link>
+    <description>Recent content in DSP on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Apr 2020 16:05:40 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2020 16:37:52 +0200</lastBuildDate>
     
-	<atom:link href="https://g-breaker.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://g-breaker.github.io/dsp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://g-breaker.github.io/dsp/my-first-dsp-post/</guid>
       <description>I think it make sense to start with sampling, as this takes the signal from the analog domain to the digital domain.</description>
-    </item>
-    
-    <item>
-      <title>Solar panel charger</title>
-      <link>https://g-breaker.github.io/electronics/my-first-project/</link>
-      <pubDate>Sat, 11 Apr 2020 16:05:40 +0200</pubDate>
-      
-      <guid>https://g-breaker.github.io/electronics/my-first-project/</guid>
-      <description>My first project :)</description>
     </item>
     
   </channel>
