@@ -19,7 +19,7 @@
       <guid>https://g-breaker.github.io/math-notes/3b1b-lec1/</guid>
       <description>My notes from 3blue1brown #1 lecture.
 What is it? This lecture is about deriving the quadratic formula in a more intuitive matter. For those of you who don&#39;t remember, the quadratic formula is the formula
-\[ r, s = \frac{-b \pm \sqrt{b²-4ac}}{2a}.\]
+\( r, s = \frac{-b \pm \sqrt{b²-4ac}}{2a}\).
 Here \(r\) and \(s\) is the roots of the function \(f(x) = ax² + bx + c\). The roots \(r\) and \(s\) represents where on the \(x\) axis \(f(x) = 0.</description>
     </item>
     
