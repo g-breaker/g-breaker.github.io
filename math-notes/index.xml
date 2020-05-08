@@ -21,5 +21,26 @@
 What is it? This lecture is about deriving the quadratic formula in a more intuitive matter. For those of you who don&amp;rsquo;t remember, the quadratic formula is the formula $$ r, s = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.$$ Here $r$ and $s$ is the roots of the function $f(x) = ax^2 + bx + c$. The roots $r$ and $s$ represents where on the $x$ axis $f(x) = 0.</description>
     </item>
     
+    <item>
+      <title>3b1b Lec2: Trigonometry fundamentals</title>
+      <link>https://g-breaker.github.io/math-notes/3b1b-lec2/</link>
+      <pubDate>Sat, 25 Apr 2020 22:59:36 +0200</pubDate>
+      
+      <guid>https://g-breaker.github.io/math-notes/3b1b-lec2/</guid>
+      <description>My notes from 3blue1brown #2 lecture.
+What is it? This lecture is primary about becomming more familiar and comfartable with cosinus and sinus. First, let&amp;rsquo;s go over to desmos (https://www.desmos.com/calculator) and plot a graph. Let&amp;rsquo;s do $\cos(x)$. A question you might naturally ask next is how would $\cos(x)^2$ look like? (Who wouldn&amp;rsquo;t ask that question next?) If you think about it before plotting it is not at all trivial. I dare you to take a pencil and paper and sketch it out, then look if you got it right after in desmos.</description>
+    </item>
+    
+    <item>
+      <title>3b1b Lec3: Complex number fundamentals.</title>
+      <link>https://g-breaker.github.io/math-notes/3b1b-lec3/</link>
+      <pubDate>Sat, 09 May 2020 00:22:04 +0200</pubDate>
+      
+      <guid>https://g-breaker.github.io/math-notes/3b1b-lec3/</guid>
+      <description>My notes from 3blue1brown #3 lecture.
+Which numbers really exist? $$2,\ \sqrt{2},\ -3,\ \sqrt{-1},\ \infty \ \text{?}$$
+Does numbers exist at all? What do we mean when we say that something exists? Maybe for math, we can defined it as something that is usefull in the real world. Think about it, negative numbers wasn&amp;rsquo;t recognized as avalid solution by mathemeticians in the start. But in the real world they can have a meaning, they can explain e.</description>
+    </item>
+    
   </channel>
 </rss>

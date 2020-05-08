@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>3b1b Lec2: Trigonometry fundamentals - </title>
+<meta name="generator" content="Hugo 0.68.3" />
+<link href="https://g-breaker.github.io/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://g-breaker.github.io/math-notes/3b1b-lec2/">
+<link rel="stylesheet" href="https://g-breaker.github.io/css/theme.min.css">
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://g-breaker.github.io/css/chroma.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://g-breaker.github.io/js/bundle.js"></script><style>
+:root {}
+</style>
+<meta property="og:title" content="3b1b Lec2: Trigonometry fundamentals" />
+<meta property="og:description" content="My notes from 3blue1brown #2 lecture.
+What is it? This lecture is primary about becomming more familiar and comfartable with cosinus and sinus. First, let&rsquo;s go over to desmos (https://www.desmos.com/calculator) and plot a graph. Let&rsquo;s do $\cos(x)$. A question you might naturally ask next is how would $\cos(x)^2$ look like? (Who wouldn&rsquo;t ask that question next?) If you think about it before plotting it is not at all trivial. I dare you to take a pencil and paper and sketch it out, then look if you got it right after in desmos." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://g-breaker.github.io/math-notes/3b1b-lec2/" />
+<meta property="article:published_time" content="2020-04-25T22:59:36+02:00" />
+<meta property="article:modified_time" content="2020-04-25T22:59:36+02:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="3b1b Lec2: Trigonometry fundamentals"/>
+<meta name="twitter:description" content="My notes from 3blue1brown #2 lecture.
+What is it? This lecture is primary about becomming more familiar and comfartable with cosinus and sinus. First, let&rsquo;s go over to desmos (https://www.desmos.com/calculator) and plot a graph. Let&rsquo;s do $\cos(x)$. A question you might naturally ask next is how would $\cos(x)^2$ look like? (Who wouldn&rsquo;t ask that question next?) If you think about it before plotting it is not at all trivial. I dare you to take a pencil and paper and sketch it out, then look if you got it right after in desmos."/>
+<meta itemprop="name" content="3b1b Lec2: Trigonometry fundamentals">
+<meta itemprop="description" content="My notes from 3blue1brown #2 lecture.
+What is it? This lecture is primary about becomming more familiar and comfartable with cosinus and sinus. First, let&rsquo;s go over to desmos (https://www.desmos.com/calculator) and plot a graph. Let&rsquo;s do $\cos(x)$. A question you might naturally ask next is how would $\cos(x)^2$ look like? (Who wouldn&rsquo;t ask that question next?) If you think about it before plotting it is not at all trivial. I dare you to take a pencil and paper and sketch it out, then look if you got it right after in desmos.">
+<meta itemprop="datePublished" content="2020-04-25T22:59:36&#43;02:00" />
+<meta itemprop="dateModified" content="2020-04-25T22:59:36&#43;02:00" />
+<meta itemprop="wordCount" content="420">
+
+
+
+<meta itemprop="keywords" content="" /><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<div style="position: absolute; width: 100%;">
+<img class="header_img" style="top:0px; height: 6rem; margin: 0px auto 0px; display: block" src="/images/ipman_resize.png" alt="ipman" />
+</div>
+<meta name="generator" content="Hugo 0.68.3" />
+<link href="https://g-breaker.github.io/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://g-breaker.github.io/math-notes/3b1b-lec2/">
+<link rel="stylesheet" href="https://g-breaker.github.io/css/theme.min.css">
+
+<link rel="stylesheet" href="https://g-breaker.github.io/css/my-override.css">
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://g-breaker.github.io/css/chroma.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://g-breaker.github.io/js/bundle.js"></script><style>
+:root {}
+</style>
+<meta property="og:title" content="3b1b Lec2: Trigonometry fundamentals" />
+<meta property="og:description" content="My notes from 3blue1brown #2 lecture.
+What is it? This lecture is primary about becomming more familiar and comfartable with cosinus and sinus. First, let&rsquo;s go over to desmos (https://www.desmos.com/calculator) and plot a graph. Let&rsquo;s do $\cos(x)$. A question you might naturally ask next is how would $\cos(x)^2$ look like? (Who wouldn&rsquo;t ask that question next?) If you think about it before plotting it is not at all trivial. I dare you to take a pencil and paper and sketch it out, then look if you got it right after in desmos." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://g-breaker.github.io/math-notes/3b1b-lec2/" />
+<meta property="article:published_time" content="2020-04-25T22:59:36+02:00" />
+<meta property="article:modified_time" content="2020-04-25T22:59:36+02:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="3b1b Lec2: Trigonometry fundamentals"/>
+<meta name="twitter:description" content="My notes from 3blue1brown #2 lecture.
+What is it? This lecture is primary about becomming more familiar and comfartable with cosinus and sinus. First, let&rsquo;s go over to desmos (https://www.desmos.com/calculator) and plot a graph. Let&rsquo;s do $\cos(x)$. A question you might naturally ask next is how would $\cos(x)^2$ look like? (Who wouldn&rsquo;t ask that question next?) If you think about it before plotting it is not at all trivial. I dare you to take a pencil and paper and sketch it out, then look if you got it right after in desmos."/>
+<meta itemprop="name" content="3b1b Lec2: Trigonometry fundamentals">
+<meta itemprop="description" content="My notes from 3blue1brown #2 lecture.
+What is it? This lecture is primary about becomming more familiar and comfartable with cosinus and sinus. First, let&rsquo;s go over to desmos (https://www.desmos.com/calculator) and plot a graph. Let&rsquo;s do $\cos(x)$. A question you might naturally ask next is how would $\cos(x)^2$ look like? (Who wouldn&rsquo;t ask that question next?) If you think about it before plotting it is not at all trivial. I dare you to take a pencil and paper and sketch it out, then look if you got it right after in desmos.">
+<meta itemprop="datePublished" content="2020-04-25T22:59:36&#43;02:00" />
+<meta itemprop="dateModified" content="2020-04-25T22:59:36&#43;02:00" />
+<meta itemprop="wordCount" content="420">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+  MathJax.Hub.Config({
+  jax: ["input/TeX","output/HTML-CSS"],
+  displayAlign: "left"
+});
+</script>
+</head>
+<body><div class="container"><header>
+<h1></h1>
+
+</header>
+
+<div class="content-container">
+<main><h1>3b1b Lec2: Trigonometry fundamentals</h1>
+<p>My notes from 3blue1brown #2 lecture.</p>
+<h3 id="what-is-it">What is it?</h3>
+<p>This lecture is primary about becomming more familiar and comfartable with cosinus and sinus. First, let&rsquo;s go over to desmos (<a href="https://www.desmos.com/calculator">https://www.desmos.com/calculator</a>) and plot a graph. Let&rsquo;s do $\cos(x)$. A question you might naturally ask next is how would $\cos(x)^2$ look like? (Who wouldn&rsquo;t ask that question next?) If you think about it before plotting it is not at all trivial. I dare you to take a pencil and paper and sketch it out, then look if you got it right after in desmos.</p>
+<p>In case you didn&rsquo;t bother with desmos, here is a plot of $\color{red}{\cos(x)}$ and $\color{blue}{\cos(x)^2}$ for you.</p>
+<p><img src="/images/cos_and_square.png" alt="Cos and square"></p>
+<p>Now I at least think it is non-intuitive that the frequency doubles when you square $\cos(x)$. By looking at $\cos(x)$ you might see that if you add $1$ and multiply by $1/2$ you get something close to $\cos(x)^2$.
+Under you see $\color{red}{\frac{1}{2}(\cos(x)+1)}$ and $\color{blue}{\cos(x)^2}$.</p>
+<p><img src="/images/cos_and_square_2.png" alt="Cos and square 2"></p>
+<p>However you are still missing the doubling of the frequency, doing so results in the equality:</p>
+<p>$$\cos(x)^2 = \frac{1}{2}(\cos(2x)+1).$$</p>
+<p>By looking at this, I will say this is not at all trivial.
+This little investigaiton that we just did casts some light on the cosine function. We see that the cosine exhibits some same properties as exponents. That is, e.g.:
+$$(2^x)^2 = 2^{2x}.$$
+We will come back to this, but for now, it is just a teaser.</p>
+<h3 id="trigonometry-basics">Trigonometry basics</h3>
+<p>As som reddit user once said:</p>
+<blockquote>
+<p>You think it&rsquo;s about triangles, but really it&rsquo;s about circles.</p>
+</blockquote>
+<p>I think this sentence really sums up what trogometry is really about. Actually, a circle is embedded in the definition of $\cos(\theta)$. Here $\cos(\theta)$ is defined as the distance on the x-axis if you walk a distance $\theta$ around a circle of unit 1. See picure below.</p>
+<p><img src="/images/cos_def.png" alt="Cos def"></p>
+<p>Here $\theta$ is measured in radians.
+Now a typically thing to learn from school is the rule: SohCahToa. This can be summed up by the picture below.</p>
+<p><img src="/images/socahtoa.png" alt="sohcah"></p>
+<p>Now if we rearrange one of the equations to something like:
+$$h\cos(\theta)=a.$$
+We se that we have the original definition of $\cos(\theta)$, but with a scaling factor $h$ since the circle is not necessarily 1. From the rules we see that $\sin(\theta)$ gives us $o$ or the distance on the y-axis. We can actually think of $\cos(\theta)$ and $\sin(\theta)$ as cordinates that traces a circle of radius 1. Let the picture below enlighten you!</p>
+<p><img src="/images/cordinates.png" alt="cordinates"></p>
+<p>I will stop here for now. As this an important point for the next lesson: that $\sin(\theta)$ and $\cos(\theta)$ describes cordinates on a circle.</p>
+<div class="edit-meta"><br></div><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main><div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class=""><a href="https://g-breaker.github.io/">Home</a></li>
+
+<li class=""><a href="https://g-breaker.github.io/electronics/">Electronics</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://g-breaker.github.io/electronics/my-first-project/">Solar panel charger</a></li>
+</ul>
+  
+</li>
+
+<li class=""><a href="https://g-breaker.github.io/dsp/">DSP</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://g-breaker.github.io/dsp/my-first-dsp-post/">Sampling</a></li>
+</ul>
+  
+</li>
+
+<li class="parent"><a href="https://g-breaker.github.io/math-notes/">Math Notes</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://g-breaker.github.io/math-notes/3b1b-lec1/">3b1b Lec1: The simpler quadratic formula</a></li>
+<li class="active"><a href="https://g-breaker.github.io/math-notes/3b1b-lec2/">3b1b Lec2: Trigonometry fundamentals</a></li>
+<li class=""><a href="https://g-breaker.github.io/math-notes/3b1b-lec3/">3b1b Lec3: Complex number fundamentals.</a></li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>
